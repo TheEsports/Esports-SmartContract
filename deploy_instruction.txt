@@ -1,0 +1,4 @@
+1. Deploy Token Contract 
+2. Deploy Crowdsale Contract 
+3. Change Token Contract owner to Crowdsale Contract (method: transferOwmership()) 
+4. Make starting initialization of Crowdsale Contract by calling method init() Crowdsales Contract
