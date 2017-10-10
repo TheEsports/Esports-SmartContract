@@ -67,7 +67,7 @@ contract ESportsMainCrowdsale is usingESportsConstants, RefundableCrowdsale {
      */
     function postBuyTokens(address _beneficiary, uint _tokens) internal {
         uint bonuses = bonusProvider.getBonusAmount(_beneficiary, soldTokens, _tokens, startTime);
-        bonusProvider.addDelayedBonus(_beneficiary, soldTokens, _tokens, startTime);
+        bonusProvider.addDelayedBonus(_beneficiary, soldTokens, _tokens);
 
         if (bonuses > 0) {
             bonusProvider.sendBonus(_beneficiary, bonuses);
