@@ -25,12 +25,13 @@ contract ESportsMainCrowdsale is usingESportsConstants, RefundableCrowdsale {
     address constant BONUS_ADDRESS = 0x0005762D49BC63F16B39aead421b2ad9Db794f2B;
     address constant COMPANY_COLD_STORAGE_ADDRESS = 0x0019d9b0BF58beA7b5aFB6977Af87243650bBcC4;
     address constant PRE_SALE_ADDRESS = 0x00F1Eb3e6009De9460DcBaE5b2496a40c2DBE576;
-    address btcBuyer = 0x0068536898Af4548b53ad23b9bbDaAD569bffdAA;
+    
+    address btcBuyer = 0x1eee4c7d88aadec2ab82dd191491d1a9edf21e9a;
 
     ESportsBonusProviderI public bonusProvider;
 
     bool private isInit = false;
-
+    
 	/**
      * Constructor function
      */

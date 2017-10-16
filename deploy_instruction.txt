@@ -8,8 +8,7 @@ WALLET_ADDRESS,
 INVESTOR_ADDRESS,
 BONUS_ADDRESS,
 COMPANY_COLD_STORAGE_ADDRESS,
-PRE_SALE_ADDRESS,
-btcBuyer
+PRE_SALE_ADDRESS
 
 3. Deploy Crowdsale Contract 
 @param _startTime Start and end timestamps where investments are allowed (both inclusive)
