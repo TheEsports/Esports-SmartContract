@@ -48,7 +48,7 @@ contract ESportsMainCrowdsale is usingESportsConstants, RefundableCrowdsale {
         _hardCapTokens * TOKEN_DECIMAL_MULTIPLIER, // 60 000 000
         _wallet,
         _token,
-        _softCapWei // _goal // 2 000 000 -> 8 000 ETH (250) -> 8 000 000 000 000 000 000 000 Wei
+        _softCapWei // _goal // 2 000 000
 	) {
 	}
 
