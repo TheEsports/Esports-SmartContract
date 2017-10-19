@@ -24,3 +24,7 @@ Token contract have method transferOwmership()
 
 5. Make starting initialization of Crowdsale Contract by calling method init() of Crowdsale contract
 Do not has parameters
+
+====
+ATTENTION! Now ETR Token rate value is 240(1 ETH = 240 ETR) and you can change it in file ESportsConstants.sol. 
+====
